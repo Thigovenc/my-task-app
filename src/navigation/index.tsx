@@ -26,7 +26,7 @@ export default function Routes() {
             } else if (route.name === "AddTask") {
               iconName = "add-circle-outline";
             } else {
-              iconName = "help-circle"; // fallback para garantir valor
+              iconName = "help-circle";
             }
 
             return <Ionicons name={iconName} size={size} color={color} />;
